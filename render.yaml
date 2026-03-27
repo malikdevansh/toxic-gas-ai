@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: toxic-gas-backend
+    runtime: docker
+    dockerfilePath: ./backend/Dockerfile
+    dockerContext: ./backend
+    envVars:
+      - key: OPENWEATHER_API_KEY
+        value: bbed8bea4c1dad98d66c908c7966cdc3
