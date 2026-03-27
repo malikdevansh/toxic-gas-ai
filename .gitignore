@@ -1,0 +1,29 @@
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+.env
+
+# Node.js
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/dist/
+frontend/.env.local
+
+# Data/Models (large files - upload separately if needed)
+backend/venv/
+backend/models/*.h5
+backend/models/*.keras
+backend/models/*.save
+backend/models/*.pkl
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
